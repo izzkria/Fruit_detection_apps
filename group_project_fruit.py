@@ -154,11 +154,11 @@ if st.session_state.page == "home":
     
     col1, col2, col3 = st.columns([1, 3, 1])
     with col2:
-        if st.button("DETECTION FRUIT", key="btn_simple", use_container_width=True):
+        if st.button("🍏 DETECTION FRUIT", key="btn_simple", use_container_width=True):
             st.session_state.page = "classify"
             st.rerun()
             
-        if st.button("PREDICT RIPENESS", key="btn_full", use_container_width=True):
+        if st.button("📊PREDICT RIPENESS", key="btn_full", use_container_width=True):
             st.session_state.page = "predict"
             st.rerun()
         
